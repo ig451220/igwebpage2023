@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/*navbar*/
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+.navbar ul li {
+  font-family: 'MusicalRegular';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+/*aboutme*/
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  height: 600px
+}
+#aboutme::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('Winter-wallpapers-3840x2160-Ultra-HD-4k-desktop-backgrounds.jpg') no-repeat center/cover;
+  height: 800px;
+  width: 100%;
+  z-index: -1;
+}
+#aboutme h1{
+  margin: 30px;
+  text-align: center;
+  font-family: 'MusicalRegular';
+  font-size: 2rem;
+  color: #fbff00;
+}
+.about{
+  display: flex;
+}
+.about img{
+  width: 100%;
+  height: 600px;
+  padding: 0px 30px;
+}
+.name{
+  padding: 10px;
+}
+.name h2{
+  font-size: 2rem;
+  color: #00990a;
+}
+.name p{
+  font-size: 1.5rem;
+  color: #009980;
+}
